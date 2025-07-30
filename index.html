@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="GOOGLE_VERIFICATION_CODE_HERE">
+    <meta name="msvalidate.01" content="BING_VERIFICATION_CODE_HERE">
+    <title>Aftab Hussain | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pVJk1nU6BNVwXQm4V6IcvjEcj5wE5lBRF+4Oj49eZ5vLsJEG3MvCD6P0coZ5CgCVS0MSUGzH4t6yOxzJh5r4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900 bg-opacity-90 backdrop-blur-sm z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-blue-400 font-bold text-xl">Portfolio</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">Home</a>
+                        <a href="#about" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">About</a>
+                        <a href="#skills" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">Skills</a>
+                        <a href="#projects" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">Projects</a>
+                        <a href="#contact" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Home</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">About</a>
+                <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Skills</a>
+                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Projects</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-16 pb-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                    <span class="text-blue-400">Hi, I'm</span> 
+                    <span class="typewriter">Aftab Hussain</span>
+                </h1>
+                <h2 class="text-2xl md:text-3xl text-gray-300 mb-6">Frontend Developer</h2>
+                <p class="text-gray-400 mb-8 max-w-lg">
+                   As a BCA student and Frontend Developer, I focus on building modern, user-friendly web interfaces that perform well on all devices.
+                </p>
+                <div class="flex space-x-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                        Contact Me
+                    </a>
+                    <a href="#projects" class="border border-blue-400 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-3 rounded-lg font-medium transition duration-300">
+                        View Work
+                    </a>
+                </div>
+                <div class="mt-8 flex space-x-4 justify-center md:justify-start">
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hidden md:flex justify-center">
+                <div class="relative w-64 h-64 lg:w-80 lg:h-80">
+                    <div class="absolute inset-0 bg-blue-500 rounded-full opacity-20 blur-xl"></div>
+                    <img src="my-img.jpg" 
+                         alt="Profile" 
+                         class="relative w-full h-full rounded-full object-cover border-4 border-blue-400 floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-2">About <span class="text-blue-400">Me</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="flex justify-center">
+                    <div class="relative w-64 h-64">
+                        <div class="absolute inset-0 bg-blue-500 rounded-lg opacity-20 blur-xl"></div>
+                        <img src="my-img.jpg" 
+                             alt="About" 
+                             class="relative w-full h-full rounded-lg object-cover border-2 border-blue-400">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Who am I?</h3>
+                    <p class="text-gray-300 mb-6">
+                        I'm Aftab Hussain, a passionate and self-motivated Frontend Developer currently pursuing BCA. 
+                        I have hands-on experience in building modern web applications using technologies like HTML, CSS, JavaScript, C++, C, DBMS, and Python.
+                    </p>
+                    <p class="text-gray-300 mb-6">
+                       I have worked on projects like Amazon Clone, Tic-Tac-Toe ,JavaScript-Code-Runner,Games using Pygame. 
+                       I love problem-solving, building creative user interfaces, and continuously improving my skills in software development, app development, and game development.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-2"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-300">Problem Solving</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-2"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-300">Creative Design</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-2"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-300">High Quality</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-2"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-300">Responsive</span>
+                        </div>
+                    </div>
+                    <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition duration-300">
+                        Download CV <i class="fas fa-download ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-2">My <span class="text-blue-400">Skills</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Coding Skills</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">HTML/CSS</span>
+                                <span class="text-blue-400">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-bar bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">JavaScript</span>
+                                <span class="text-blue-400">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-bar bg-blue-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Python</span>
+                                <span class="text-blue-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-bar bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">C++</span>
+                                <span class="text-blue-400">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-bar bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Professional Skills</h3>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
+                            <div class="text-blue-400 text-3xl mb-4">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4 class="text-lg font-medium mb-2">Programming</h4>
+                            <p class="text-gray-400 text-sm">Strong in C, C++, Python and JavaScript with OOPs concepts.</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
+                            <div class="text-blue-400 text-3xl mb-4">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4 class="text-lg font-medium mb-2">Web Development</h4>
+                            <p class="text-gray-400 text-sm">Experienced in creating responsive websites using HTML, CSS, JS.</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
+                            <div class="text-blue-400 text-3xl mb-4">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <h4 class="text-lg font-medium mb-2">Problem Solving</h4>
+                            <p class="text-gray-400 text-sm">Enjoy solving logical and algorithmic challenges with clean code.</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
+                            <div class="text-blue-400 text-3xl mb-4">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h4 class="text-lg font-medium mb-2">Team Collaboration</h4>
+                            <p class="text-gray-400 text-sm">Able to work effectively in team environments and internships.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-2">My <span class="text-blue-400">Projects</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="project-1.jpg" 
+                             alt="Amazon Clone" 
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110">
+                        <div class="absolute inset-0 bg-blue-600 bg-opacity-70 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+                            <a href="#" class="text-white text-lg font-medium border-2 border-white px-4 py-2 rounded hover:bg-white hover:text-blue-600 transition duration-300">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">🛒 Amazon Clone Website</h3>
+                        <p class="text-gray-400 mb-4">An Amazon-inspired e-commerce clone with product listing, cart, and login functionality.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">Html5</span>
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">CSS</span>
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="project-2.jpg" 
+                             alt="Project 2" 
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110">
+                        <div class="absolute inset-0 bg-blue-600 bg-opacity-70 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+                            <a href="https://aftab-06.github.io/AP-Games/" class="text-white text-lg font-medium border-2 border-white px-4 py-2 rounded hover:bg-white hover:text-blue-600 transition duration-300">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">⭕ Tic Tac Toe Game</h3>
+                        <p class="text-gray-400 mb-4"> A simple interactive Tic Tac Toe game developed using HTML, CSS, and JavaScript with win-check logic and reset functionality.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="project-3.jpg" 
+                             alt="Project 3" 
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110">
+                        <div class="absolute inset-0 bg-blue-600 bg-opacity-70 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+                            <a href="https://aftab-06.github.io/js-code-runner/" class="text-white text-lg font-medium border-2 border-white px-4 py-2 rounded hover:bg-white hover:text-blue-600 transition duration-300">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">💻 JavaScript Code Runner</h3>
+                        <p class="text-gray-400 mb-4"> A live code editor that allows users to write and run JavaScript code in real-time. Includes output area and basic syntax error handling.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">HTML/CSS</span>
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="bg-blue-900 bg-opacity-50 text-blue-400 text-xs px-3 py-1 rounded-full">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition duration-300">
+                    View All Projects <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-2">Get In <span class="text-blue-400">Touch</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+                    <p class="text-gray-400 mb-8">
+                       Koi project idea ho ya collaboration ka plan, feel free to contact me. Main hamesha naye ideas aur challenges ke liye ready hoon.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium mb-1">Location</h4>
+                                <p class="text-gray-400">Bhilwara,Rajasthan(India)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mr-4 mt-1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium mb-1">Email</h4>
+                                <p class="text-gray-400">Aftabhussain@77541</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mr-4 mt-1">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium mb-1">Phone</h4>
+                                <p class="text-gray-400">+91 8619119800</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-gray-300 mb-2">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-300 mb-2">Your Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-gray-300 mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Let me know how I can help you">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-300 mb-2">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col items-center">
+                <div class="mb-6">
+                    <span class="text-blue-400 font-bold text-xl">Portfolio</span>
+                </div>
+                <div class="flex space-x-6 mb-6">
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                </div>
+                <div class="text-center text-gray-400 text-sm">
+                    <p>&copy; 2025 Aftab Hussain. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto text-center space-x-4 text-sm text-gray-500 py-4">
+            <a href="privacy.html" class="hover:text-blue-600">Privacy Policy</a>
+            <a href="terms.html" class="hover:text-blue-600">Terms & Conditions</a>
+            <a href="sitemap.html" class="hover:text-blue-600">Sitemap</a>
+        </div>
+        </div>
+
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center opacity-0 invisible transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
